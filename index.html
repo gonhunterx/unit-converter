@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  type="text/css" rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading"> Unit Converter</h1>
+        <!-- Add labels to the dropdowns -->
+        <div class="select">
+            <label for="select-units">From:</label>
+            <select name="select-units" id="select-units">
+                <option value="Meters">Meters</option>
+                <option value="Yards">Yards</option>
+            </select>
+        </div>
+        <div class="select">
+            <label for="output-units">To:</label>
+            <select name="output-units" id="output-units">
+                <option value="Meters">Meters</option>
+                <option value="Yards">Yards</option>
+            </select>
+        </div>
+
+        <div class="input">
+            <input type="number" id="input-number" placeholder="Enter a number">
+        </div>
+        <div class="result">
+            <p id="result">Result: </p>
+        </div>
+    </div>
+    
+</body>
+</html>
